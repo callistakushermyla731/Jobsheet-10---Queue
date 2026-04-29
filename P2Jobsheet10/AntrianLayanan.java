@@ -91,4 +91,13 @@ public class AntrianLayanan {
         size--;
         return mhs;
     }
+
+    public void LihatAkhir() {
+        if (IsEmpty()) {
+            System.out.println("Queue masih kosong.");
+        } else {
+            System.out.println("Elemen paling belakang: " + data[rear]);
+        }
+    }
+    
 }
